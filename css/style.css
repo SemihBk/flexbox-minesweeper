@@ -1,0 +1,26 @@
+.box {
+  height: 12.5%;
+  width: 12.5%;
+  border: 1px dotted rgb(82, 82, 82);
+  border-width: 0 3px 3px 0;
+}
+
+.one {
+  background-image: url(../img/1.png);
+}
+
+.two {
+  background-image: url(../img/2.png);
+}
+
+.three {
+  background-image: url(../img/3.png);
+}
+
+.bomb {
+  background-image: url(../img/bomb.png);
+}
+
+.outset {
+  border: 4px outset #fff;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "", sans-serif;
+  line-height: 1;
+  background-color: #0d1117;
+}
+
+.container {
+  height: 40rem;
+  width: 40rem;
+  border: 8px solid #cbcbcb;
+
+  margin: 15rem auto;
+}
+
+.sub-container {
+  border: 8px inset #c8cac8;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-width: 5px 0 0 5px;
+
+  background-color: #cbcbcb;
+}
